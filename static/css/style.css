@@ -791,7 +791,7 @@ mark {
   -o-transition: ease all 0.35s;
   -webkit-transition: ease all 0.35s;
   transition: ease all 0.35s;
-  background: #4f3c6d;
+  background: rgba(79, 60, 109, 0.1);
   opacity: 0.8;
 }
 .portfolio-box-01 .portfolio-info {
@@ -831,12 +831,7 @@ mark {
   position: relative;
   z-index: 1;
 }
-.portfolio-box-01:hover .portfolio-info h5 {
-  color: #fff;
-}
-.portfolio-box-01:hover .portfolio-info span {
-  color: rgba(255, 255, 255, 0.5);
-}
+
 .portfolio-box-01:hover .portfolio-icon {
   bottom: 8px;
   opacity: 1;
@@ -1160,7 +1155,7 @@ mark {
   -o-transition: ease all 0.35s;
   -webkit-transition: ease all 0.35s;
   transition: ease all 0.35s;
-  background: #e2d7f3;
+  background: #fff5ec;
   opacity: 0.8;
   z-index: -1;
 }
@@ -1179,15 +1174,7 @@ mark {
 .feature-box-01 p {
   margin: 0;
 }
-.feature-box-01:hover {
-  color: rgba(255, 255, 255, 0.7);
-}
-.feature-box-01:hover .icon {
-  color: #fff;
-}
-.feature-box-01:hover h5 {
-  color: #fff;
-}
+
 .feature-box-01:hover:after {
   bottom: auto;
   top: 0;
