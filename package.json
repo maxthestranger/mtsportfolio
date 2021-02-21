@@ -1,0 +1,38 @@
+{
+  "name": "mtsmain",
+  "version": "1.0.0",
+  "description": "maxthestranger portfolio",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxthestranger/mtsportfolio.git"
+  },
+  "keywords": [
+    "mts",
+    "maxthestranger",
+    "portfolio",
+    "freelance",
+    "developer",
+    "coder",
+    "web",
+    "mobile",
+    "designer"
+  ],
+  "author": "maxthestranger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxthestranger/mtsportfolio/issues"
+  },
+  "homepage": "https://github.com/maxthestranger/mtsportfolio#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
